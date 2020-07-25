@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-25T07:57:17.675Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="XD-TOdh2ZSSQQ-Dx3f7F" version="13.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-07-25T08:08:26.813Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="ONn2ps48oIk_B5wer42v" version="13.5.3" type="github" pages="2">
   <diagram id="Oy-n1oyOMkjCHLZsYLG3" name="画面">
     <mxGraphModel dx="818" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="K7yCRMLl8_GX8BKv2XN7-14" value="トップ画面" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="610" width="120" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="K7yCRMLl8_GX8BKv2XN7-15" value="商品一覧" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-14">
+        <mxCell id="K7yCRMLl8_GX8BKv2XN7-15" value="商品・サービス&#xa;提供一覧" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-14">
           <mxGeometry y="26" width="120" height="34" as="geometry" />
         </mxCell>
         <mxCell id="K7yCRMLl8_GX8BKv2XN7-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-14">
@@ -64,10 +64,10 @@
             <mxPoint x="610" y="652.6599999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K7yCRMLl8_GX8BKv2XN7-36" value="商品詳細画面" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="K7yCRMLl8_GX8BKv2XN7-36" value="詳細画面" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="620" y="610" width="120" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="K7yCRMLl8_GX8BKv2XN7-37" value="選択した商品の&#xa;説明画面" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-36">
+        <mxCell id="K7yCRMLl8_GX8BKv2XN7-37" value="選択した商品&#xa;サービスの説明画面" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-36">
           <mxGeometry y="26" width="120" height="34" as="geometry" />
         </mxCell>
         <mxCell id="K7yCRMLl8_GX8BKv2XN7-38" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-36">
@@ -175,7 +175,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="テーブル" id="akLvkU0_wWu0cNzXDUr3">
-    <mxGraphModel dx="1186" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="988" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="7eX8Q4zjJo1-z4jUMZVY-0" />
         <mxCell id="7eX8Q4zjJo1-z4jUMZVY-1" parent="7eX8Q4zjJo1-z4jUMZVY-0" />
