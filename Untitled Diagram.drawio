@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-25T07:36:58.222Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="UcsXLgTH0iE0j22MmIn3" version="13.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-25T07:39:02.773Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="1QClrmj9jA89HlC-FLSo" version="13.5.3" type="github">
   <diagram id="Oy-n1oyOMkjCHLZsYLG3" name="画面">
     <mxGraphModel dx="818" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="K7yCRMLl8_GX8BKv2XN7-1" value="会員登録" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="610" width="120" height="146" as="geometry" />
         </mxCell>
-        <mxCell id="K7yCRMLl8_GX8BKv2XN7-56" value="ユーザー&lt;br&gt;パスワード" style="whiteSpace=wrap;html=1;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-1">
+        <mxCell id="K7yCRMLl8_GX8BKv2XN7-56" value="ユーザーID&lt;br&gt;パスワード" style="whiteSpace=wrap;html=1;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-1">
           <mxGeometry y="26" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K7yCRMLl8_GX8BKv2XN7-57" value="DB/S" style="whiteSpace=wrap;html=1;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-1">
@@ -150,10 +150,10 @@
         <mxCell id="K7yCRMLl8_GX8BKv2XN7-62" value="DB/S" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="696" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K7yCRMLl8_GX8BKv2XN7-63" value="注文完了画面" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1121" y="610" width="120" height="86" as="geometry" />
+        <mxCell id="K7yCRMLl8_GX8BKv2XN7-63" value="ログアウト" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="610" width="120" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="K7yCRMLl8_GX8BKv2XN7-64" value="トップへ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-63">
+        <mxCell id="K7yCRMLl8_GX8BKv2XN7-64" value="ログインへ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-63">
           <mxGeometry y="26" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="K7yCRMLl8_GX8BKv2XN7-65" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-63">
@@ -161,6 +161,15 @@
         </mxCell>
         <mxCell id="K7yCRMLl8_GX8BKv2XN7-66" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-63">
           <mxGeometry y="60" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="K7yCRMLl8_GX8BKv2XN7-67" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="647.6599999999999" as="sourcePoint" />
+            <mxPoint x="1150" y="647.6599999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K7yCRMLl8_GX8BKv2XN7-68" value="DB/S" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="696" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
