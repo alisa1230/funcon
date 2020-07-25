@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2020-07-25T07:27:20.438Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="B6nAhS3pviLg9Oo-fMHL" version="13.5.3" type="github">
-  <diagram id="Oy-n1oyOMkjCHLZsYLG3" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2020-07-25T07:33:45.100Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="5oW0WdC6030eAZcmcA4T" version="13.5.3" type="github">
+  <diagram id="Oy-n1oyOMkjCHLZsYLG3" name="画面">
     <mxGraphModel dx="818" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="K7yCRMLl8_GX8BKv2XN7-1" value="会員登録" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="610" width="120" height="120" as="geometry" />
+          <mxGeometry x="110" y="610" width="120" height="146" as="geometry" />
         </mxCell>
-        <mxCell id="K7yCRMLl8_GX8BKv2XN7-54" value="紹介コード入力" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-1">
-          <mxGeometry y="26" width="120" height="20" as="geometry" />
+        <mxCell id="K7yCRMLl8_GX8BKv2XN7-56" value="ユーザー&lt;br&gt;パスワード" style="whiteSpace=wrap;html=1;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-1">
+          <mxGeometry y="26" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K7yCRMLl8_GX8BKv2XN7-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-1">
-          <mxGeometry y="46" width="120" height="74" as="geometry" />
+        <mxCell id="K7yCRMLl8_GX8BKv2XN7-57" value="DB" style="whiteSpace=wrap;html=1;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-1">
+          <mxGeometry y="86" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K7yCRMLl8_GX8BKv2XN7-5" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -35,16 +35,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="K7yCRMLl8_GX8BKv2XN7-6" value="ログイン" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="610" width="120" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="K7yCRMLl8_GX8BKv2XN7-7" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-6">
-          <mxGeometry y="26" width="120" height="26" as="geometry" />
+          <mxGeometry x="280" y="610" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="K7yCRMLl8_GX8BKv2XN7-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-6">
-          <mxGeometry y="52" width="120" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="K7yCRMLl8_GX8BKv2XN7-9" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-6">
-          <mxGeometry y="60" width="120" height="26" as="geometry" />
+          <mxGeometry y="26" width="120" height="104" as="geometry" />
         </mxCell>
         <mxCell id="K7yCRMLl8_GX8BKv2XN7-19" value="お客さん" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="618" width="30" height="60" as="geometry" />
@@ -62,20 +56,6 @@
           <mxGeometry y="52" width="120" height="8" as="geometry" />
         </mxCell>
         <mxCell id="K7yCRMLl8_GX8BKv2XN7-24" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-21">
-          <mxGeometry y="60" width="120" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="K7yCRMLl8_GX8BKv2XN7-25" value="管理者ページ" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="807" width="120" height="86" as="geometry">
-            <mxRectangle x="250" y="807" width="100" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K7yCRMLl8_GX8BKv2XN7-26" value="顧客一覧&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-25">
-          <mxGeometry y="26" width="120" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="K7yCRMLl8_GX8BKv2XN7-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-25">
-          <mxGeometry y="52" width="120" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="K7yCRMLl8_GX8BKv2XN7-28" value="注文一覧" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-25">
           <mxGeometry y="60" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="K7yCRMLl8_GX8BKv2XN7-39" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
@@ -134,6 +114,26 @@
         </mxCell>
         <mxCell id="K7yCRMLl8_GX8BKv2XN7-50" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;決済&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;startSize=26;" vertex="1" parent="1">
           <mxGeometry x="800" y="696" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="K7yCRMLl8_GX8BKv2XN7-55" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="860" as="sourcePoint" />
+            <mxPoint x="260" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K7yCRMLl8_GX8BKv2XN7-25" value="管理者ページ" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="810" width="120" height="86" as="geometry">
+            <mxRectangle x="250" y="807" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K7yCRMLl8_GX8BKv2XN7-26" value="顧客一覧&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-25">
+          <mxGeometry y="26" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="K7yCRMLl8_GX8BKv2XN7-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-25">
+          <mxGeometry y="52" width="120" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="K7yCRMLl8_GX8BKv2XN7-28" value="注文一覧" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="K7yCRMLl8_GX8BKv2XN7-25">
+          <mxGeometry y="60" width="120" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
